@@ -26,6 +26,7 @@ WebElement userPassword=driver.findElement(By.id("pass"));
 userPassword.sendKeys("MyPassword");
 WebElement Login=driver.findElement(By.name("login"));
 Login.click();  
+System.out.println("HEllo World");
 //String output=userEmail.getAttribute("Email address or phone number");
 //System.out.println(output);
 	//Thread.sleep(1000);
